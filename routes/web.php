@@ -13,4 +13,6 @@
 
 Route::get('/', 'indexController@index');
 
-route::get ('/client', 'indexController@client');
+Route::get ('/client', 'indexController@client');
+
+Route::resource('livre', 'LivreController');

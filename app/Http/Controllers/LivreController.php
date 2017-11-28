@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Livre;
+
 class LivreController extends Controller
 {
     /**
@@ -13,7 +15,8 @@ class LivreController extends Controller
      */
     public function index()
     {
-        //
+        $livre = Livre::all();
+        return view('livre.index')->with('livre',$livre);
     }
 
     /**
