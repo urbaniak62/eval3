@@ -26,7 +26,7 @@ class LivreController extends Controller
      */
     public function create()
     {
-        //
+        return view('livre.create');
     }
 
     /**
@@ -48,7 +48,8 @@ class LivreController extends Controller
      */
     public function show($id)
     {
-        //
+        $livre = Livre::find($id);
+        return view('livre.show')->with('livre',$livre); 
     }
 
     /**
