@@ -15,7 +15,7 @@
     <hr>
     <label for="resume">résumé : </label>
     <hr>
-    <textarea name="resume" id="" cols="88" rows="10">{{$livre->resume}}</textarea>
+    <textarea name="resume" id="" cols="40" rows="20">{{$livre->resume}}</textarea>
     <hr>
     <label for="auteur">auteur : </label>
     <input type="text" name="auteur"   auteur : value="{{$livre->auteur}}" >
