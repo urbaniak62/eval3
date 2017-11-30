@@ -26,6 +26,7 @@ class LivreController extends Controller
      */
     public function create()
     {
+            
         return view('livre.create');
     }
 
@@ -37,7 +38,20 @@ class LivreController extends Controller
      */
     public function store(Request $request)
     {
-        //
+         
+      $livre= new Livre;
+      
+
+      $livre->titre = $request->input ('titre');
+      $livre->resume = $request->input ('resume');
+      $livre->auteur = $request->input ('auteur');
+      $livre->categorie = $request->input ('categorie');
+      $livre->date = $request->input ('date');
+      $livre->disponibilité = $request->input ('disponibilité');
+      $livre->save();
+      
+      return view('../home'); 
+                
     }
 
     /**
@@ -48,6 +62,7 @@ class LivreController extends Controller
      */
     public function show($id)
     {
+        
         $livre = Livre::find($id);
         return view('livre.show')->with('livre',$livre); 
     }
@@ -60,7 +75,8 @@ class LivreController extends Controller
      */
     public function edit($id)
     {
-        //
+        $livre = Livre::find($id);
+        return view('livre.edit')->with('livre',$livre);
     }
 
     /**
@@ -72,7 +88,18 @@ class LivreController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $livre= Livre::find($id);
+        
+  
+        $livre->titre = $request->input ('titre');
+        $livre->resume = $request->input ('resume');
+        $livre->auteur = $request->input ('auteur');
+        $livre->categorie = $request->input ('categorie');
+        $livre->date = $request->input ('date');
+        $livre->disponibilité = $request->input ('disponibilité');
+        $livre->save();
+        
+        return view('../home');
     }
 
     /**

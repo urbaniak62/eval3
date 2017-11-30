@@ -7,8 +7,10 @@
     <h1>insert new book</h1>
     <br>
     <hr>
-    <form methode="post">
-    <label for="titre">titre : </label>
+    <form action="{{route('livre.store')}}" methode="post">
+    {{csrf_field()}}
+    <div class="form-group">
+    <label for="titre">titre :  </label>
     <input type="text" name="titre"   titre : >
     <hr>
     <label for="resume">résumé : </label>
@@ -28,9 +30,10 @@
     <input type="text" name="disponibilité"  disponibilité : >
     <hr>
     <button type="submit">soummetre</button>
-
+    </div> 
     </form> 
   </div>
+
         
  
 @endsection

@@ -12,5 +12,6 @@
             <p><strong>{{$livre->disponibilité}}</strong></p>
         </div>
         <a href="../livre" class="btn btn-default">back</a>
+        <a href="../livre/{{$livre->id}}/edit" class="btn btn-primary">Editer</a>
  
 @endsection

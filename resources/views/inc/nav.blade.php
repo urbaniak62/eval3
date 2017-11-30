@@ -14,7 +14,7 @@
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/livre">All books</a></li>
             <li><a href="/client">client</a></li>
-            <li><a href="/addBook">Add Book</a></li>
+            <li><a href="/livre/create">Add Book</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

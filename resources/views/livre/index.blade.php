@@ -12,6 +12,7 @@
             <h6><strong><i>date de parution : {{$liv->date}}</i></strong></h6>
             <p><strong>{{$liv->disponibilité}}</strong></p>
         </div>
+        
         @endforeach
- 
+        
 @endsection

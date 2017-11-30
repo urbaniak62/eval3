@@ -14,7 +14,7 @@ class indexController extends Controller
         return view('client');
     }
 
-    public function show(){
-        return view('livre/show');
-    }
+    // public function show(){
+    //     return view('livre/show');
+    // }
 }

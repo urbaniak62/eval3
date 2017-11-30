@@ -16,3 +16,4 @@ Route::get('/', 'indexController@index');
 Route::get ('/client', 'indexController@client');
 
 Route::resource('livre', 'LivreController');
+
