@@ -11,9 +11,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
+            
             <li><a href="/livre">All books</a></li>
-            <li><a href="/client">client</a></li>
+            <li><a href="/clients">client</a></li>
             <li><a href="/livre/create">Add Book</a></li>
           </ul>
         </div><!--/.nav-collapse -->

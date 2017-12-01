@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\clients;
+
 class ClientsController extends Controller
 {
     /**
@@ -13,7 +15,8 @@ class ClientsController extends Controller
      */
     public function index()
     {
-        //
+        $clients = clients::all();
+        return view('clients.index')->with('clients', $clients);
     }
 
     /**
