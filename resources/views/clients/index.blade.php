@@ -12,6 +12,6 @@
     </div>
 @endforeach
         <a href="../livre" class="btn btn-default">back</a>
-        <a href="../cliens/{{$client->id}}/edit" class="btn btn-primary">add new client</a>
+        <a href="../clients/create" class="btn btn-primary">add new client</a>
  
 @endsection
