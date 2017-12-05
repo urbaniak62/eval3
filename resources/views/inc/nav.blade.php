@@ -15,6 +15,9 @@
             <li><a href="/livre">All books</a></li>
             <li><a href="/clients">client</a></li>
             <li><a href="/livre/create">Add Book</a></li>
+            <select name="categorie" id="">
+              
+            </select>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

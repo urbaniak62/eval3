@@ -11,23 +11,23 @@
     {{csrf_field()}}
     <div class="form-group">
     <label for="titre">titre :  </label>
-    <input type="text" name="titre"   titre : >
+    <input type="text"class="form-control" name="titre"   titre : >
     <hr>
     <label for="resume">résumé : </label>
     <hr>
-    <textarea name="resume" id="" cols="20" rows="10"></textarea>
+    <textarea name="resume" class="form-control" id="" cols="20" rows="10"></textarea>
     <hr>
     <label for="auteur">auteur : </label>
-    <input type="text" name="auteur"   auteur : >
+    <input type="text" class="form-control" name="auteur"   auteur : >
     <hr>
     <label for="categorie">categorie : </label>
-    <input type="text" name="categorie"   categorie : >
+    <input type="text" class="form-control" name="categorie"   categorie : >
     <hr>
     <label for="date">date de publication : </label>
-    <input type="date" name="date"   titre : >
+    <input type="date" class="form-control" name="date"   titre : >
     <hr>
     <label for="disponibilité">disponibilité : </label>
-    <input type="text" name="disponibilité"  disponibilité : >
+    <input type="text" class="form-control" name="disponibilité"  disponibilité : >
     <hr>
     <button type="submit">soummetre</button>
     </div> 

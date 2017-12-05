@@ -76,6 +76,7 @@ class LivreController extends Controller
     public function edit($id)
     {
         $livre = Livre::find($id);
+        
         return view('livre.edit')->with('livre',$livre);
     }
 
