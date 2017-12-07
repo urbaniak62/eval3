@@ -11,7 +11,7 @@
     {{csrf_field()}}
     <div class="form-group">
     <label for="titre">titre :  </label>
-    <input type="text"class="form-control" name="titre"   titre : >
+    <input type="text" class="form-control" name="titre"   titre : >
     <hr>
     <label for="resume">résumé : </label>
     <hr>
