@@ -1,0 +1,21 @@
+body{
+    background-color: #aca6a5;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+h1{
+    color:rgb(10, 10, 10);
+}
+hr{
+    border-top: 1px solid #999797;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(172, 167, 167);
+}
+.container{
+    width:70%;
+    margin:0 auto;
+}
+
